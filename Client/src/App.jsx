@@ -11,7 +11,7 @@
   import Reviews from './pages/Reviews'
   import Enquiries from './pages/Enquiries'
   import Connect from './pages/Connect'
-  import Footer from './Components/footer'
+  import Footer from './Components/Footer'
   import NoteFound from './pages/Notfound'
   import Profilepage from './pages/Profilepage'
   import {Toaster} from 'react-hot-toast'
