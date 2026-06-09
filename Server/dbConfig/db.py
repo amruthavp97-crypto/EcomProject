@@ -7,7 +7,7 @@ def ConnectMongo():
         db= client[settings.DB_NAME]
         collection = db['users']
         
-        print("connected to Mongodb")
+        print("connected to Mongodb.....")
         return collection
     except Exception as e:
         print('Error in mongodb Connection:',e)
