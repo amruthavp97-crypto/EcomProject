@@ -7,7 +7,7 @@ import {
   incrementQuantity,
   decrementQuantity,
   removeFromCart
-} from '../Redux/cartSlice'
+} from '../Redux/Cartslice'
 
 const Mycart = () => {
 
