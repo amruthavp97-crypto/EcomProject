@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
-import { setWishlist } from "../Redux/wishlistSlice";
+import { setWishlist } from "../Redux/Wishlistslice";
 
 const WishlistLoader = () => {
 

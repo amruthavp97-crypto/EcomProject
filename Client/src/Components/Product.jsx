@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
 import axios from 'axios';
-import { addToWishlist,removeFromWishlist,setWishlist } from '../Redux/wishlistSlice';
+import { addToWishlist,removeFromWishlist,setWishlist } from '../Redux/Wishlistslice';
 
 const Product = ({ item, image, heading, desc, actualprice, offerprice }) => {
 
